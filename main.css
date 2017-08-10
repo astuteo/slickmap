@@ -6,3 +6,73 @@
   background-color: #efffcd;
   border-color: #e0f7ab;
 }
+
+h1,
+a:link:before,
+a:visited:before{
+  	text-transform: none;
+}
+
+/* --------	Top Level --------- */
+
+#primaryNav li a {
+	background: #F6F6F6;
+	border: 2px solid #B7B7B7;
+}
+#primaryNav li a:hover {
+	background-color: #e2f4fd;
+	border-color: #B7B7B7;
+}
+#primaryNav li a:link:before,
+#primaryNav li a:visited:before {
+	color: black;
+}
+
+/* --------	Second Level --------- */
+
+#primaryNav li li a {
+  background: none;
+	background-color: #D8D8D8;
+	border-color: #B7B7B7;
+}
+#primaryNav li li a:hover {
+	border-color: #e7999b;
+	background-color: #eabdbd;
+}
+#primaryNav li li a:link:before,
+#primaryNav li li a:visited:before {
+	color: black;
+}
+
+/* --------	Third Level --------- */
+
+#primaryNav li li li a {
+	background-color: #F6F6F6;
+	border-color: #B7B7B7;
+}
+#primaryNav li li li a:hover {
+	background-color: #fffce5;
+	border-color: #d1b62c;
+}
+#primaryNav li li li a:link:before,
+#primaryNav li li li a:visited:before {
+	color: black;
+	font-size: 9px;
+}
+
+/* ------------------------------------------------------------
+	Utility Navigation
+------------------------------------------------------------ */
+
+#utilityNav li a {
+  background-color: #D8D8D8;
+	border: 2px solid #B7B7B7;
+}
+#utilityNav li a:hover {
+	background-color: #F6F6F6;
+	border-color: #d1b62c;
+}
+#utilityNav li a:link:before,
+#utilityNav li a:visited:before {
+	color: black;
+}
